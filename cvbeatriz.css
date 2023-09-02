@@ -1,0 +1,56 @@
+ /* Seletor por Elemento */
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: #000000;
+    background-color: #8bc6eeec;
+    padding: 10px;
+}
+
+/* Seletor por ID */
+#main-heading {
+    text-decoration: underline double;
+    color:#1b1f70;
+}
+
+/* Seletor por Classe */
+.profile-image {
+    border: 2px solid #faebeb;
+    border-radius: 00%;
+}
+
+.profile-text {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline dotted;
+}
+
+/* Seletor por Atributo */
+img[alt="Meme front-end"] {
+    transform: rotate(0deg);
+}
+
+/* Pseudo-Classe para Links */
+a:hover {
+    color: #ff0505;
+    text-decoration: none;
+}
+
+/* Decorações de Texto */
+p {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #445ad7;
+    letter-spacing: 2px;
+}
+
+/* Outra Fonte Distinta */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Cores Diferentes para Fundo e Fontes */
+section:nth-child(n) {
+    background-color: #e7f9ff;
+    color: #27247e;
+}
